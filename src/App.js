@@ -1,23 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import React, { useState, useEffect } from "react";
+import axios from "axios";
+
+import Persons from "./components/persons";
+import Pagination from "./components/pagination";
 
 function App() {
+  const [persons, setPersons] = useState([]);
+  const [loading, setLoading] = useState(false);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [personsPerPage] = useState(5);
+
+  useEffect(() => {
+    const fetchPersons = async () => {
+      setLoading(true);
+      const res = await axios.get("https://randomuser.me/api/?results=20");
+      setPersons(res.data.results);
+      setLoading(false);
+    };
+    fetchPersons();
+  }, []);
+
+  // get current pagePersons
+  const indexOfLastPage = currentPage * personsPerPage;
+  const indexOfFirstPage = indexOfLastPage - personsPerPage;
+  const currentPersons = persons.slice(indexOfFirstPage, indexOfLastPage);
+
+  // change page
+  const paginate = (pageNumber) => {setCurrentPage(pageNumber);}
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container mt-2">
+      <Pagination
+        personsPerPage={personsPerPage}
+        totalPersons={persons.length}
+        paginate={paginate}
+      />
+      <Persons persons={currentPersons} loading={loading} />
     </div>
   );
 }
