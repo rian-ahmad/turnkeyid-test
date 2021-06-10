@@ -9,7 +9,7 @@ function App() {
   const [persons, setPersons] = useState([]);
   const [loading, setLoading] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
-  const [personsPerPage] = useState(5);
+  const [personsPerPage] = useState(4);
 
   useEffect(() => {
     const fetchPersons = async () => {
@@ -27,10 +27,12 @@ function App() {
   const currentPersons = persons.slice(indexOfFirstPage, indexOfLastPage);
 
   // change page
-  const paginate = (pageNumber) => {setCurrentPage(pageNumber);}
-  
+  const paginate = (pageNumber) => {
+    setCurrentPage(pageNumber);
+  };
+
   return (
-    <div className="container mt-2">
+    <div className="container mt-2 mb-5">
       <Pagination
         personsPerPage={personsPerPage}
         totalPersons={persons.length}

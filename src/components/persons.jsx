@@ -1,6 +1,8 @@
 import React from 'react';
 import Flag from 'react-world-flags';
-import loader from './Loader.min.svg'
+import LazyLoad from 'react-lazyload';
+
+import loader from './Loader.min.svg';
 
 const Persons = ({ persons, loading }) => {
     if (loading) {
@@ -11,10 +13,12 @@ const Persons = ({ persons, loading }) => {
         <div className="row">
             {persons.map((person, index) => (
                 <div key={index} className="col-lg-6">
-                    <div className="card mb-2">
+                    <div className="card mt-2">
                         <div className="row">
                             <div className="col-sm-4">
-                                <img className="card-img-top" src={person.picture.large} alt={person.name.last} />
+                                <LazyLoad height={"100%"} once>
+                                    <img className="card-img-top" src={person.picture.large} alt={person.name.last} />
+                                </LazyLoad>
                             </div>
                             <div className="col-sm-8 card-body">
                                 <div className="card-title d-flex justify-content-between">
