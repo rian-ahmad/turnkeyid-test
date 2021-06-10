@@ -15,7 +15,7 @@ const Pagination = ({ personsPerPage, totalPersons, paginate }) => {
                 <Nav variant="pills" className="pagination" defaultActiveKey="2.1" aria-label="Page navigation persons">
                     {pageNumbers.map((number, index) => (
                         <Nav.Item key={index} className="page-item">
-                            <Nav.Link href="!#" className="page-link m-1 px-3"
+                            <Nav.Link className="page-link m-1 px-3"
                                 eventKey={`2.${number}`}
                                 onClick={() => paginate(number)}
                             >
