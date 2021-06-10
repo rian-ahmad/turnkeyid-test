@@ -1,0 +1,2 @@
+(this["webpackJsonpturnkeyid-test"]=this["webpackJsonpturnkeyid-test"]||[]).push([[3],{66:function(t,s,e){"use strict";e.r(s);e(0);var c=e(1);s.default=function(t){var s=t.picPerson,e=t.altPic;return Object(c.jsx)("img",{className:"card-img-top",src:s,alt:e})}}}]);
+//# sourceMappingURL=3.671d465d.chunk.js.map

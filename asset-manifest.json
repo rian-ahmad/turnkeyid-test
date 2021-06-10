@@ -1,23 +1,27 @@
 {
   "files": {
     "main.css": "/turnkeyid-test/static/css/main.8ea56619.chunk.css",
-    "main.js": "/turnkeyid-test/static/js/main.15aef631.chunk.js",
-    "main.js.map": "/turnkeyid-test/static/js/main.15aef631.chunk.js.map",
-    "runtime-main.js": "/turnkeyid-test/static/js/runtime-main.e9706cf1.js",
-    "runtime-main.js.map": "/turnkeyid-test/static/js/runtime-main.e9706cf1.js.map",
-    "static/js/2.ceeb1364.chunk.js": "/turnkeyid-test/static/js/2.ceeb1364.chunk.js",
-    "static/js/2.ceeb1364.chunk.js.map": "/turnkeyid-test/static/js/2.ceeb1364.chunk.js.map",
-    "static/js/3.d3a051a2.chunk.js": "/turnkeyid-test/static/js/3.d3a051a2.chunk.js",
-    "static/js/3.d3a051a2.chunk.js.map": "/turnkeyid-test/static/js/3.d3a051a2.chunk.js.map",
+    "main.js": "/turnkeyid-test/static/js/main.a82b7ed9.chunk.js",
+    "main.js.map": "/turnkeyid-test/static/js/main.a82b7ed9.chunk.js.map",
+    "runtime-main.js": "/turnkeyid-test/static/js/runtime-main.b77ea9f2.js",
+    "runtime-main.js.map": "/turnkeyid-test/static/js/runtime-main.b77ea9f2.js.map",
+    "static/js/2.788a47f8.chunk.js": "/turnkeyid-test/static/js/2.788a47f8.chunk.js",
+    "static/js/2.788a47f8.chunk.js.map": "/turnkeyid-test/static/js/2.788a47f8.chunk.js.map",
+    "static/js/3.671d465d.chunk.js": "/turnkeyid-test/static/js/3.671d465d.chunk.js",
+    "static/js/3.671d465d.chunk.js.map": "/turnkeyid-test/static/js/3.671d465d.chunk.js.map",
+    "static/js/4.80b90825.chunk.js": "/turnkeyid-test/static/js/4.80b90825.chunk.js",
+    "static/js/4.80b90825.chunk.js.map": "/turnkeyid-test/static/js/4.80b90825.chunk.js.map",
+    "static/js/5.b6a2b8bf.chunk.js": "/turnkeyid-test/static/js/5.b6a2b8bf.chunk.js",
+    "static/js/5.b6a2b8bf.chunk.js.map": "/turnkeyid-test/static/js/5.b6a2b8bf.chunk.js.map",
     "index.html": "/turnkeyid-test/index.html",
     "static/css/main.8ea56619.chunk.css.map": "/turnkeyid-test/static/css/main.8ea56619.chunk.css.map",
-    "static/js/2.ceeb1364.chunk.js.LICENSE.txt": "/turnkeyid-test/static/js/2.ceeb1364.chunk.js.LICENSE.txt",
+    "static/js/2.788a47f8.chunk.js.LICENSE.txt": "/turnkeyid-test/static/js/2.788a47f8.chunk.js.LICENSE.txt",
     "static/media/Loader.min.d56e9fad.svg": "/turnkeyid-test/static/media/Loader.min.d56e9fad.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e9706cf1.js",
-    "static/js/2.ceeb1364.chunk.js",
+    "static/js/runtime-main.b77ea9f2.js",
+    "static/js/2.788a47f8.chunk.js",
     "static/css/main.8ea56619.chunk.css",
-    "static/js/main.15aef631.chunk.js"
+    "static/js/main.a82b7ed9.chunk.js"
   ]
 }
