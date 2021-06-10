@@ -2,7 +2,7 @@ import "./App.css";
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-import Persons from "./components/persons";
+import Persons from "./components/cardPerson/persons";
 import Pagination from "./components/pagination";
 
 function App() {
