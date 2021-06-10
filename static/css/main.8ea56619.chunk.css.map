@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AAAA,QACI,oBACJ,CAEA,gBACI,mBAAoB,CACpB,kBACJ","file":"main.8ea56619.chunk.css","sourcesContent":[".active {\r\n    color: white !important;\r\n}\r\n\r\n.material-icons {\r\n    display: inline-flex;\r\n    vertical-align: top;\r\n}"]}
