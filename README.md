@@ -1,6 +1,6 @@
 # Turnkey.Id Frontend Engineer Test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\
 Runs the app in `browser` with link below\
 [https://rian-ahmad.github.io/turnkeyid-test](https://rian-ahmad.github.io/turnkeyid-test).
 
